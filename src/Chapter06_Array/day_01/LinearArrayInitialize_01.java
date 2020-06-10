@@ -31,5 +31,16 @@ public class LinearArrayInitialize_01 {
 
 
 
+        //2,如何调用数组指定位置的元素:通过角标的方式调用
+        //数组的角标(索引)从0开始,到数组长度-1结束
+        names[0] = "一";
+        names[1] = "二";
+        names[2] = "三";
+        names[3] = "四";
+        names[4] = "五";
+
+
+
+
     }
 }
