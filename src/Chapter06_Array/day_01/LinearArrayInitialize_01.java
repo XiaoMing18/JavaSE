@@ -24,7 +24,7 @@ public class LinearArrayInitialize_01 {
         //1.1静态初始化:数组的初始化和数组元素的赋值同时进行
         ids =new int[] {1001,1002,1003,1004,1005};
         //1.2动态初始化:数组的初始化和数组元素的赋值分开进行
-        String[] names = new String[4];
+        String[] names = new String[5];
 
 
         //总结:数组一旦初始化完成,长度就确定了
@@ -38,6 +38,25 @@ public class LinearArrayInitialize_01 {
         names[2] = "三";
         names[3] = "四";
         names[4] = "五";
+        System.out.println(names[4]);
+
+
+        //3，如何获取数组长度
+        //属性:length
+        System.out.println(names.length);//5
+        System.out.println(ids.length);//5
+
+
+        System.out.println("------------------------------");
+        //4,如何遍历数组
+        for (int i =1 ;i < names.length;i++){
+            System.out.println(names[i]);
+
+        }
+
+
+
+
 
 
 
