@@ -18,10 +18,13 @@ public class TwoDimensionalUsed_06 {
         //二维数组静态初始化
         int[] [] arr1 = new int[][]{{1,2,3},{4,5},{6,7,8}};
         //二维数组动态初始化1
-        String[] [] arr2 = new String[0][1];
+        String[] [] arr2 = new String[3][2];
         //二维数组动态初始化2
         String [] [] arr3 = new String[3][];
 
 
+    //2,如何调用数组的指定元素
+        System.out.println(arr1[0][1]);//第一个数组的第二个元素:2
+        System.out.println(arr2[1][1]);//null
     }
 }
