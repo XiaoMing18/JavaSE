@@ -26,5 +26,22 @@ public class TwoDimensionalUsed_06 {
     //2,如何调用数组的指定元素
         System.out.println(arr1[0][1]);//第一个数组的第二个元素:2
         System.out.println(arr2[1][1]);//null
+        System.out.println("---------------------------------------");
+
+
+    //3,获取数组长度
+        System.out.println(arr1.length);//3
+        System.out.println(arr1[1].length);//2
+        System.out.println("----------------------");
+
+    //4,遍历二维数组
+        for (int i = 0; i < arr1.length;i++){
+            for (int j = 0;j < arr1[i].length;j++){
+                System.out.print(arr1[i][j] + "    ");
+            }
+            System.out.println();
+        }
+
+
     }
 }
